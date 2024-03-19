@@ -22,7 +22,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::view('/about','about');
 
-// Middle ware grouping 
+// Her we are grouping the routes which are authenticated using Middleware
 
 Route::middleware('auth')->group(function()
 {
